@@ -1,0 +1,6 @@
+# Core runs on the Python 3.10+ standard library only. Install extras as needed:
+fastapi>=0.110          # HTTP API
+uvicorn>=0.29
+psycopg[binary]>=3.1    # PgVectorStore
+anthropic>=0.40         # optional AnthropicLLM narration
+kubernetes>=29          # optional KubernetesReadOnly adapter
